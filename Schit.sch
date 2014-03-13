@@ -6228,90 +6228,90 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </package>
 </packages>
 <symbols>
-<symbol name="MEGA64">
-<wire x1="-20.32" y1="53.34" x2="22.86" y2="53.34" width="0.254" layer="94"/>
-<wire x1="22.86" y1="53.34" x2="22.86" y2="-60.96" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-60.96" x2="-20.32" y2="-60.96" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-60.96" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
-<text x="-20.32" y="-63.5" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-20.32" y="54.61" size="1.778" layer="95">&gt;NAME</text>
-<pin name="PF0(ADC0)" x="-25.4" y="-58.42" length="middle" direction="in"/>
-<pin name="PF1(ADC1)" x="-25.4" y="-55.88" length="middle" direction="in"/>
-<pin name="PF2(ADC2)" x="-25.4" y="-53.34" length="middle" direction="in"/>
-<pin name="PF3(ADC3)" x="-25.4" y="-50.8" length="middle" direction="in"/>
-<pin name="PF4(ADC4/TCK)" x="-25.4" y="-48.26" length="middle" direction="in"/>
-<pin name="PF5(ADC5/TMS)" x="-25.4" y="-45.72" length="middle" direction="in"/>
-<pin name="PF6(ADC6/TDO)" x="-25.4" y="-43.18" length="middle" direction="in"/>
-<pin name="PF7(ADC7/TDI)" x="-25.4" y="-40.64" length="middle" direction="in"/>
-<pin name="(RXD/PDI)PE0" x="27.94" y="-58.42" length="middle" rot="R180"/>
-<pin name="(TXD/PDO)PE1" x="27.94" y="-55.88" length="middle" rot="R180"/>
-<pin name="(XCK0/AIN0)PE2" x="27.94" y="-53.34" length="middle" rot="R180"/>
-<pin name="(OC3A/AIN1)PE3" x="27.94" y="-50.8" length="middle" rot="R180"/>
-<pin name="(OC3B/INT4)PE4" x="27.94" y="-48.26" length="middle" rot="R180"/>
-<pin name="(OC3C/INT5)PE5" x="27.94" y="-45.72" length="middle" rot="R180"/>
-<pin name="(T3/INT6)PE6" x="27.94" y="-43.18" length="middle" rot="R180"/>
-<pin name="(IC3/INT7)PE7" x="27.94" y="-40.64" length="middle" rot="R180"/>
-<pin name="(T2)PD7" x="27.94" y="-17.78" length="middle" rot="R180"/>
-<pin name="(T1)PD6" x="27.94" y="-20.32" length="middle" rot="R180"/>
-<pin name="(XCK1)PD5" x="27.94" y="-22.86" length="middle" rot="R180"/>
-<pin name="(IC1)PD4" x="27.94" y="-25.4" length="middle" rot="R180"/>
-<pin name="(TXD1/INT3)PD3" x="27.94" y="-27.94" length="middle" rot="R180"/>
-<pin name="(RXD1/INT2)PD2" x="27.94" y="-30.48" length="middle" rot="R180"/>
-<pin name="(SDA/INT1)PD1" x="27.94" y="-33.02" length="middle" rot="R180"/>
-<pin name="(SCL/INT0)PD0" x="27.94" y="-35.56" length="middle" rot="R180"/>
-<pin name="(A15)PC7" x="27.94" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="(A14)PC6" x="27.94" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="(A13)PC5" x="27.94" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="(A12)PC4" x="27.94" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="(A11)PC3" x="27.94" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="(A10)PC2" x="27.94" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="(A9)PC1" x="27.94" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="(A8)PC0" x="27.94" y="-12.7" length="middle" direction="out" rot="R180"/>
-<pin name="(OC2/OC1C)PB7" x="27.94" y="27.94" length="middle" rot="R180"/>
-<pin name="(OC1B)PB6" x="27.94" y="25.4" length="middle" rot="R180"/>
-<pin name="(OC1A)PB5" x="27.94" y="22.86" length="middle" rot="R180"/>
-<pin name="(OC0)PB4" x="27.94" y="20.32" length="middle" rot="R180"/>
-<pin name="(MISO)PB3" x="27.94" y="17.78" length="middle" rot="R180"/>
-<pin name="(MOSI)PB2" x="27.94" y="15.24" length="middle" rot="R180"/>
-<pin name="(SCK)PB1" x="27.94" y="12.7" length="middle" rot="R180"/>
-<pin name="(SS)PB0" x="27.94" y="10.16" length="middle" rot="R180"/>
-<pin name="(AD6)PA6" x="27.94" y="48.26" length="middle" rot="R180"/>
-<pin name="(AD7)PA7" x="27.94" y="50.8" length="middle" rot="R180"/>
-<pin name="(AD5)PA5" x="27.94" y="45.72" length="middle" rot="R180"/>
-<pin name="(AD4)PA4" x="27.94" y="43.18" length="middle" rot="R180"/>
-<pin name="(AD3)PA3" x="27.94" y="40.64" length="middle" rot="R180"/>
-<pin name="(AD2)PA2" x="27.94" y="38.1" length="middle" rot="R180"/>
-<pin name="(AD1)PA1" x="27.94" y="35.56" length="middle" rot="R180"/>
-<pin name="(AD0)PA0" x="27.94" y="33.02" length="middle" rot="R180"/>
-<pin name="AVCC" x="-25.4" y="33.02" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-25.4" y="30.48" length="middle" direction="pwr"/>
-<pin name="AREF" x="-25.4" y="35.56" length="middle" direction="pas"/>
-<pin name="XTAL1" x="-25.4" y="40.64" length="middle"/>
-<pin name="XTAL2" x="-25.4" y="45.72" length="middle"/>
-<pin name="VCC@1" x="-25.4" y="25.4" length="middle" direction="pwr"/>
-<pin name="VCC" x="-25.4" y="22.86" length="middle" direction="pwr"/>
-<pin name="GND@2" x="-25.4" y="17.78" length="middle" direction="pwr"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr"/>
-<pin name="PG3(TOSC2)" x="-25.4" y="12.7" length="middle"/>
-<pin name="PG4(TOSC1)" x="-25.4" y="7.62" length="middle"/>
-<pin name="PG0(WR)" x="-25.4" y="-2.54" length="middle" function="dot"/>
-<pin name="PG1(RD)" x="-25.4" y="0" length="middle" function="dot"/>
-<pin name="PG2(ALE)" x="-25.4" y="2.54" length="middle"/>
-<pin name="RESET" x="-25.4" y="50.8" length="middle" direction="in" function="dot"/>
-<pin name="PEN" x="-25.4" y="-5.08" length="middle" direction="in" function="dot"/>
+<symbol name="MEGA128">
+<wire x1="-22.86" y1="55.88" x2="20.32" y2="55.88" width="0.254" layer="94"/>
+<wire x1="20.32" y1="55.88" x2="20.32" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-58.42" x2="-22.86" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-58.42" x2="-22.86" y2="55.88" width="0.254" layer="94"/>
+<text x="-22.86" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="57.15" size="1.778" layer="95">&gt;NAME</text>
+<pin name="PF0(ADC0)" x="-27.94" y="-55.88" length="middle" direction="in"/>
+<pin name="PF1(ADC1)" x="-27.94" y="-53.34" length="middle" direction="in"/>
+<pin name="PF2(ADC2)" x="-27.94" y="-50.8" length="middle" direction="in"/>
+<pin name="PF3(ADC3)" x="-27.94" y="-48.26" length="middle" direction="in"/>
+<pin name="PF4(ADC4/TCK)" x="-27.94" y="-45.72" length="middle" direction="in"/>
+<pin name="PF5(ADC5/TMS)" x="-27.94" y="-43.18" length="middle" direction="in"/>
+<pin name="PF6(ADC6/TDO)" x="-27.94" y="-40.64" length="middle" direction="in"/>
+<pin name="PF7(ADC7/TDI)" x="-27.94" y="-38.1" length="middle" direction="in"/>
+<pin name="(RXD/PDI)PE0" x="25.4" y="-55.88" length="middle" rot="R180"/>
+<pin name="(TXD/PDO)PE1" x="25.4" y="-53.34" length="middle" rot="R180"/>
+<pin name="(XCK0/AIN0)PE2" x="25.4" y="-50.8" length="middle" rot="R180"/>
+<pin name="(OC3A/AIN1)PE3" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="(OC3B/INT4)PE4" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="(OC3C/INT5)PE5" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="(T3/INT6)PE6" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="(IC3/INT7)PE7" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="(T2)PD7" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="(T1)PD6" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="(XCK1)PD5" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="(IC1)PD4" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="(TXD1/INT3)PD3" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="(RXD1/INT2)PD2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="(SDA/INT1)PD1" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="(SCL/INT0)PD0" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="(A15)PC7" x="25.4" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="(A14)PC6" x="25.4" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="(A13)PC5" x="25.4" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="(A12)PC4" x="25.4" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="(A11)PC3" x="25.4" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="(A10)PC2" x="25.4" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="(A9)PC1" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="(A8)PC0" x="25.4" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="(OC2/OC1C)PB7" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="(OC1B)PB6" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="(OC1A)PB5" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="(OC0)PB4" x="25.4" y="22.86" length="middle" rot="R180"/>
+<pin name="(MISO)PB3" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="(MOSI)PB2" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="(SCK)PB1" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="(SS)PB0" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="(AD6)PA6" x="25.4" y="50.8" length="middle" rot="R180"/>
+<pin name="(AD7)PA7" x="25.4" y="53.34" length="middle" rot="R180"/>
+<pin name="(AD5)PA5" x="25.4" y="48.26" length="middle" rot="R180"/>
+<pin name="(AD4)PA4" x="25.4" y="45.72" length="middle" rot="R180"/>
+<pin name="(AD3)PA3" x="25.4" y="43.18" length="middle" rot="R180"/>
+<pin name="(AD2)PA2" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="(AD1)PA1" x="25.4" y="38.1" length="middle" rot="R180"/>
+<pin name="(AD0)PA0" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="AVCC" x="-27.94" y="35.56" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-27.94" y="33.02" length="middle" direction="pwr"/>
+<pin name="AREF" x="-27.94" y="38.1" length="middle" direction="pas"/>
+<pin name="XTAL1" x="-27.94" y="43.18" length="middle"/>
+<pin name="XTAL2" x="-27.94" y="48.26" length="middle"/>
+<pin name="VCC@1" x="-27.94" y="27.94" length="middle" direction="pwr"/>
+<pin name="VCC" x="-27.94" y="25.4" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-27.94" y="20.32" length="middle" direction="pwr"/>
+<pin name="GND" x="-27.94" y="22.86" length="middle" direction="pwr"/>
+<pin name="PG3(TOSC2)" x="-27.94" y="15.24" length="middle"/>
+<pin name="PG4(TOSC1)" x="-27.94" y="10.16" length="middle"/>
+<pin name="PG0(WR)" x="-27.94" y="0" length="middle" function="dot"/>
+<pin name="PG1(RD)" x="-27.94" y="2.54" length="middle" function="dot"/>
+<pin name="PG2(ALE)" x="-27.94" y="5.08" length="middle"/>
+<pin name="RESET" x="-27.94" y="53.34" length="middle" direction="in" function="dot"/>
+<pin name="PEN" x="-27.94" y="-2.54" length="middle" direction="in" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MEGA64" prefix="IC">
+<deviceset name="MEGA128" prefix="IC">
 <description>&lt;b&gt;MICROCONTROLLER&lt;/b&gt;&lt;p&gt;
-64 Kbytes FLASH&lt;br&gt;
+128 Kbytes FLASH&lt;br&gt;
 4 Kbytes SRAM&lt;br&gt;
-2 Kbytes EEPROM&lt;br&gt;
+4 Kbytes EEPROM&lt;br&gt;
 DUAL USART&lt;br&gt;
 8-channel 10 bit ADC&lt;p&gt;
 Source: avr.lbr</description>
 <gates>
-<gate name="G$1" symbol="MEGA64" x="0" y="0"/>
+<gate name="G$1" symbol="MEGA128" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-M" package="MLF64">
@@ -6384,9 +6384,9 @@ Source: avr.lbr</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATMEGA64-16MU" constant="no"/>
-<attribute name="OC_FARNELL" value="1455120" constant="no"/>
-<attribute name="OC_NEWARK" value="58M3742" constant="no"/>
+<attribute name="MPN" value="ATMEGA128-16MU" constant="no"/>
+<attribute name="OC_FARNELL" value="1455093" constant="no"/>
+<attribute name="OC_NEWARK" value="58M3717" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6460,9 +6460,9 @@ Source: avr.lbr</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATMEGA64-16AU" constant="no"/>
-<attribute name="OC_FARNELL" value="9171355" constant="no"/>
-<attribute name="OC_NEWARK" value="01M6899" constant="no"/>
+<attribute name="MPN" value="ATMEGA128-16AU" constant="no"/>
+<attribute name="OC_FARNELL" value="9171118" constant="no"/>
+<attribute name="OC_NEWARK" value="95K7364" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8599,7 +8599,7 @@ SMT- SWCH-08247</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="M2012" value="220"/>
 <part name="I2C" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="IC2" library="atmel" deviceset="MEGA64" device="-A"/>
+<part name="IC2" library="atmel" deviceset="MEGA128" device="-A"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -8628,7 +8628,7 @@ SMT- SWCH-08247</description>
 <instance part="R3" gate="G$1" x="109.22" y="114.3"/>
 <instance part="I2C" gate="G$1" x="43.18" y="25.4" rot="R180"/>
 <instance part="P+3" gate="VCC" x="210.82" y="50.8"/>
-<instance part="IC2" gate="G$1" x="63.5" y="144.78"/>
+<instance part="IC2" gate="G$1" x="66.04" y="142.24"/>
 <instance part="GND7" gate="1" x="30.48" y="160.02"/>
 <instance part="C1" gate="G$1" x="38.1" y="210.82" rot="R180"/>
 <instance part="GND8" gate="1" x="38.1" y="205.74"/>
@@ -9026,11 +9026,6 @@ SMT- SWCH-08247</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="I2C" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<label x="55.88" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="(SCL/INT0)PD0"/>
 <wire x1="91.44" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 <label x="96.52" y="109.22" size="1.778" layer="95"/>
@@ -9038,20 +9033,9 @@ SMT- SWCH-08247</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="I2C" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<label x="55.88" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="(SDA/INT1)PD1"/>
 <wire x1="91.44" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <label x="96.52" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="114.3" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="177.8" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -9065,6 +9049,11 @@ SMT- SWCH-08247</description>
 <wire x1="205.74" y1="45.72" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
 <label x="210.82" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="I2C" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="55.88" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -9076,6 +9065,11 @@ SMT- SWCH-08247</description>
 <pinref part="SPI" gate="1" pin="6"/>
 <wire x1="190.5" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <label x="177.8" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="I2C" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<label x="55.88" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -9256,28 +9250,6 @@ SMT- SWCH-08247</description>
 <wire x1="22.86" y1="193.04" x2="22.86" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="XTAL2"/>
 <wire x1="22.86" y1="190.5" x2="38.1" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CL+" class="0">
-<segment>
-<wire x1="116.84" y1="170.18" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
-<label x="109.22" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="83.82" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<label x="91.44" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CL-" class="0">
-<segment>
-<wire x1="127" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="165.1" x2="137.16" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="127" y1="165.1" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<label x="121.92" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="83.82" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-<label x="91.44" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
